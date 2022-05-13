@@ -1,0 +1,78 @@
+.home_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+.left_bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.search_bar{
+    float: right;
+}
+.grid-container {
+    display: grid;
+    grid-template-rows: 400px;
+    margin-top: 30px;
+}
+
+.divImg {
+    margin-top: 15px;
+    width: 283px;
+    height: 170px;
+    object-fit: contain;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid pink;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 10px 10px 5px pink;
+}
+
+.detailImg {
+    width: 450px;
+    object-fit: contain;
+}
+
+.car_name {
+    font-size: medium;
+    margin-top: 10px;
+    display: flex;
+    margin-left: 10px;
+}
+.car_efficiency {
+    font-size: medium;
+    margin-top: 50px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.car_efficiency_text {
+    font-size: medium;
+    margin-right: 230px;
+    display: flex;
+    margin-left: 10px;
+}
+.button_explore {
+    padding: 5px 80px;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 10px;
+    border: 2px solid black;
+    background: gainsboro;
+}
+
+.img_rate {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.rate_text {
+    float: right;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
